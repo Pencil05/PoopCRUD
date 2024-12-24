@@ -13,7 +13,7 @@ export default function Home() {
 
   const getPosts = async () =>{
     try{
-      const res = await fetch("https://poop-crud-izezliu8y-poohs-projects-2ecf307c.vercel.app/api/post",{
+      const res = await fetch("https://poop-crud-gi93wdn8h-poohs-projects-2ecf307c.vercel.app/api/post",{
         method: "GET",
         cache: "no-store"
       })
