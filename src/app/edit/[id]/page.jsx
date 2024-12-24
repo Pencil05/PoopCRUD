@@ -19,7 +19,7 @@ function EditPostPage({ params }) {
 
   const getPostByid = async (id) => {
     try {
-      const res = await fetch(`http://localhost:3000/api/post/${id}`, {
+      const res = await fetch(`https://poop-crud-izezliu8y-poohs-projects-2ecf307c.vercel.app/api/post/${id}`, {
         method: "GET",
         cache: "no-store",
       });
@@ -42,7 +42,7 @@ function EditPostPage({ params }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try{
-        const res = await fetch(`http://localhost:3000/api/post/${id}`,{
+        const res = await fetch(`https://poop-crud-izezliu8y-poohs-projects-2ecf307c.vercel.app/api/post/${id}`,{
             method: "PUT",
             headers:{
                 "Content-Type":"application/json"

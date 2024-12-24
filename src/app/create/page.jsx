@@ -18,7 +18,7 @@ function CreatePostPage() {
     }
 
     try {
-        const res = await fetch('http://localhost:3000/api/post', {
+        const res = await fetch(`https://poop-crud-izezliu8y-poohs-projects-2ecf307c.vercel.app/api/post`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
