@@ -42,7 +42,7 @@ function EditPostPage({ params }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try{
-        const res = await fetch(`https://poop-crud-gi93wdn8h-poohs-projects-2ecf307c.vercel.app/api/post/${id}`,{
+        const res = await fetch(`https://poop-crud.vercel.app/api/post/${id}`,{
             method: "PUT",
             headers:{
                 "Content-Type":"application/json"

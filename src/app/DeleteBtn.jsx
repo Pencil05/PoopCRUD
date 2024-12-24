@@ -8,7 +8,7 @@ function DeleteBtn({id}) {
     const handleDelete = async() =>{
         const confirmed = confirm("จะลบจริงหรอ? :(");
         if (confirmed) {
-            const res = await fetch(`https://poop-crud-gi93wdn8h-poohs-projects-2ecf307c.vercel.app/api/post?id=${id}`,{
+            const res = await fetch(`https://poop-crud.vercel.app/api/post?id=${id}`,{
                 method: "DELETE"
             })
             if(res.ok){
