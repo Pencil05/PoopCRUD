@@ -18,7 +18,7 @@ function CreatePostPage() {
     }
 
     try {
-        const res = await fetch('http://localhost:3000/api/post', {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/post/${id}`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
