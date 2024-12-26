@@ -41,7 +41,7 @@ export default function Home() {
       <div className="ehe"></div>
         <Link href={'/create'}>
       <button className="bg-green-500 mx-10 p-3 text-white rounded-xl">
-        Add Some Shit
+        Add Some Cheese
       </button>
         </Link>
       </div>
